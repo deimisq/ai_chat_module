@@ -1,0 +1,27 @@
+{
+    "name": "ai_chat",
+    "version": "1.0.0",
+    "description": "AI-powered chat module for Zabbix with Google Gemini integration.",
+    "author": "deimisq",
+    "url": "https://github.com/deimisq/ai_chat_module",
+    "contact": "deimisq@sentrait.com.uy",
+    "widgets": [
+        {
+            "name": "ai_chat_widget",
+            "file": "views/chat.php"
+        }
+    ],
+    "assets": [
+        {
+            "type": "css",
+            "file": "assets/chat.css"
+        },
+        {
+            "type": "js",
+            "file": "assets/chat.js"
+        }
+    ],
+    "dependencies": {
+        "zabbix_version": "6.0"
+    }
+}
